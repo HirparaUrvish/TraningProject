@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="UI Design">
+
+        <menu>
+
+            <group
+                android:id="@+id/nav_g1"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/bbasic_layout"
+                    android:enabled="true"
+                    android:icon="@drawable/woc_image_vector"
+                    android:title="   Basic Layout" />
+
+                <item
+                    android:id="@+id/input_navigation"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_keyboard_24"
+                    android:title="   Input Control" />
+
+                <item
+                    android:id="@+id/dialog_navigation"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_message_24"
+                    android:title="   Toast,Dialog And SnackBar" />
+
+                <item
+                    android:id="@+id/image_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_image_24"
+                    android:title="   Image Load With Glide" />
+
+                <item
+                    android:id="@+id/Collasping_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_archive_25"
+                    android:title="   Collapsing Toolbar" />
+
+                <item
+                    android:id="@+id/MVP_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_assignment_24"
+                    android:title="   Android MVP Architecture" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Drawable">
+
+        <menu>
+
+            <group
+                android:id="@+id/ggggg"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Drawable_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_image_search_24"
+                    android:title="   Drawable" />
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Bottom part">
+
+        <menu>
+
+            <group
+                android:id="@+id/cfdfef"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Bottom_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_more_horiz_24"
+                    android:title="   Bottom Navigation" />
+
+                <item
+                    android:id="@+id/Bottom_Sheet_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_assignment_returned_24"
+                    android:title="   Bottom Sheet" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Cardview">
+
+        <menu>
+
+            <group
+                android:id="@+id/jfvufvbn"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Cardview_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_cardimage_24"
+                    android:title="   CardView" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Adapter">
+
+        <menu>
+
+            <group
+                android:id="@+id/vfuhvus"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Dynamic_listview_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_format_listview_bulleted_24"
+                    android:title="   Dynamic ListView" />
+
+                <item
+                    android:id="@+id/RecyclerView_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_listrecyclerview_alt_24"
+                    android:title="   Recycler View" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Json/Gson">
+
+        <menu>
+
+            <group
+                android:id="@+id/vhvyf"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Json_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_computer_24"
+                    android:title="   Json" />
+
+                <item
+                    android:id="@+id/Countryjson_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_web_24"
+                    android:title="   Country,State,City" />
+
+                <item
+                    android:id="@+id/Usergson_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_group_24"
+                    android:title="   User Details Get Using" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Database">
+
+        <menu>
+
+            <group
+                android:id="@+id/jfbvjf"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Database_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_format_listview_bulleted_24"
+                    android:title="   SQLite Database" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="API">
+
+        <menu>
+
+            <group
+                android:id="@+id/jbnjnjnjnjnjknjnjnjnjn"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Api_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_web_asset_24"
+                    android:title="   User Demo Using OBVolley" />
+
+                <item
+                    android:id="@+id/Api1_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_baseline_web_asset_24"
+                    android:title="   User Demo Using Retrofit" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Woc Design">
+
+        <menu>
+
+            <group
+                android:id="@+id/jbnjnjnjnjnjnjnjnjnjn"
+                android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/Woc_nevi"
+                    android:enabled="true"
+                    android:icon="@drawable/woc_image_vector"
+                    android:title="   Woc Design" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+</menu>

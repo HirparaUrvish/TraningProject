@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toll_bar"
+        android:background="#5BC0F8"
+        app:title="Dashboard"
+        android:layout_height="?actionBarSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/myview"
+        android:layout_below="@+id/toll_bar"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="280dp"
+        android:theme="@style/NavigationDrawerStyle"
+        android:id="@+id/navi_demooo"
+        style="@style/list_item_appearance"
+        app:menu="@menu/navi_menu"
+        app:itemIconTint="#0081C9"
+        app:itemTextAppearance="@style/list_item_appearance"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_layout"
+        android:layout_height="match_parent"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

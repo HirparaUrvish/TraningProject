@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.SpinnerExampleActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="Spinner "
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Spinner  Example"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentRight="true"
+        android:id="@+id/spinner_item"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_item"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="cndjbcvfjhdbv"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/bb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_text"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Spinner Example Task"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <Spinner
+        android:id="@+id/spinner_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bb1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp" />
+
+    <Spinner
+        android:id="@+id/spinner_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_country"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp" />
+
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/spinner_state"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/pppp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Display_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_city"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Display" />
+
+    <TextView
+        android:id="@+id/text_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Display_item"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

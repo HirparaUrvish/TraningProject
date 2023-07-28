@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.SQLiteAddDataActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="Add New Data"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sqluser"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_below="@+id/user_image"
+            android:hint="Name"
+            android:layout_marginTop="10dp"
+            android:id="@+id/user_name"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_below="@+id/user_name"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:id="@+id/user_email"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_below="@+id/user_email"
+            android:hint="Age"
+            android:maxLength="2"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:id="@+id/user_age"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_below="@+id/user_age"
+            android:hint="Phone no."
+            android:maxLength="10"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:id="@+id/user_number"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/Liner_bbb"
+            android:layout_below="@+id/user_number"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Gender :"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:clickable="true"
+                android:checkedButton="1"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:text="Male"
+                    android:checked="true"
+                    android:onClick="Ongender"
+                    android:id="@+id/user_male"
+                    android:layout_height="30dp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:text="Female"
+                    android:onClick="Ongender"
+                    android:id="@+id/user_female"
+                    android:layout_height="25dp"/>
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="360dp"
+            android:layout_marginTop="10dp"
+            android:text="Register"
+            android:id="@+id/user_ok"
+            android:layout_below="@+id/Liner_bbb"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

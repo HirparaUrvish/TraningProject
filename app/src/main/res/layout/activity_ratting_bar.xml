@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.RattingBarActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="Rating Bar"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <RatingBar
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:rating="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Rating Bar Task"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:progressTint="#FF5722"
+        android:layout_marginTop="20dp"
+        android:rating="0" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="#9C27B0"
+        android:layout_marginTop="20dp"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:rating="0" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:progressTint="#39F14343"
+        android:layout_marginTop="20dp"
+        android:rating="0" />
+
+    <com.hsalf.smilerating.SmileRating
+    android:id="@+id/smiley_rating"
+        android:onClick="smilyok"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        app:isIndicator="false"
+        app:showLine="true"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingClass,OnClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="dcgycvg"
+        android:textSize="18dp"
+        android:id="@+id/rate1"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="dcgycvg"
+        android:id="@+id/rate2"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="dcgycvg"
+        android:textSize="18dp"
+        android:id="@+id/rate3"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="dcgycvg"
+        android:textSize="18dp"
+        android:id="@+id/rate4"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+</LinearLayout>

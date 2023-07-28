@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.SwitchButtonActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="Switch Button"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Switch Button Example"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <Switch
+        android:layout_width="200dp"
+        android:id="@+id/firsts"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/switch_button_1"
+        android:textAlignment="center"
+        android:thumb="@drawable/custom_switch"
+        tools:ignore="OnClick,UseSwitchCompatOrMaterialXml"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <TextView
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <Switch
+        android:layout_width="200dp"
+        android:id="@+id/seconds"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:text="@string/switch_button_1"
+        android:textAlignment="center"
+        android:thumb="@drawable/custom_switch1"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <TextView
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Switch Button Task"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <Switch
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:showText="true"
+        android:id="@+id/task1s"
+        android:text="1."
+        android:textAlignment="center"
+        android:textOff="no"
+        android:textOn="Yes"
+        android:thumb="@drawable/custom_switch"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Switch
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:dither="false"
+        android:text="2."
+        android:id="@+id/task2s"
+        android:textAlignment="center"
+        android:thumb="@drawable/custom_switchz"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Switch
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:dither="false"
+        android:id="@+id/task3s"
+        android:trackTint="@color/cardview_dark_background"
+        android:text="3."
+        android:textAlignment="center"
+        android:thumb="@drawable/custom_switchz"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Switch
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:dither="false"
+        android:text="4."
+        android:textAlignment="center"
+        android:id="@+id/task4s"
+        android:thumb="@drawable/custom_switch3"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/task1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/task2"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/task3"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/task4"
+        android:textSize="18dp" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:background="#5BC0F8"
+        android:text="Country State City Json "
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/r1111"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="Spinner Example Using Json "
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/country_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:dropDownSelector="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner_choice" />
+
+    <Spinner
+        android:id="@+id/state_Spinner"
+        android:layout_width="match_parent"
+        android:paddingEnd="10dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/spinner_choice" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/city_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/spinner_choice" />
+
+</LinearLayout>

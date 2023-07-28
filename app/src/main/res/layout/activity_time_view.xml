@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.TimePickerActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="Time view "
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Time Picker Example"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:id="@+id/time_picker"
+        android:layout_height="wrap_content"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/display_time"
+        android:text="Display time"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/first_time1"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/first_time2"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edit_time"
+        android:hint="Select here for choose time"
+        android:layout_marginTop="30dp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:focusedByDefault="false"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

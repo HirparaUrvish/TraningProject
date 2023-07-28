@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:enabled="true"
+        android:id="@+id/demo_navigation"
+        android:title="Demo Task"
+        android:icon="@drawable/ic_baseline_task_24"/>
+
+    <item android:enabled="true"
+        android:id="@+id/input_navigation"
+        android:title="Input Control"
+        android:icon="@drawable/ic_baseline_keyboard_24"/>
+
+    <item android:enabled="true"
+        android:id="@+id/dialog_navigation"
+        android:title="Dialog"
+        android:icon="@drawable/ic_baseline_message_24"/>
+
+</menu>

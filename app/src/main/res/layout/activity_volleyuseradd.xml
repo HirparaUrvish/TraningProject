@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.SQLiteAddDataActivity">
+
+    <TextView
+        android:id="@+id/volleyr"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="Add New User Using OBVolley"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:hint="Name"
+                android:layout_marginTop="10dp"
+                android:id="@+id/volley_name1"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_below="@+id/volley_name1"
+                android:hint="Email"
+                android:layout_marginTop="10dp"
+                android:id="@+id/volley_email1"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_below="@+id/volley_email1"
+                android:hint="Gender"
+                android:maxLength="6"
+                android:layout_marginTop="10dp"
+                android:id="@+id/volley_gender1"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_below="@+id/volley_gender1"
+                android:hint="Status"
+                android:layout_marginTop="10dp"
+                android:id="@+id/volley_status1"
+                android:layout_height="wrap_content"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="360dp"
+                android:layout_marginTop="10dp"
+                android:text="Add New User"
+                android:id="@+id/volley_ok1"
+                android:layout_below="@+id/volley_status1"
+                android:layout_height="wrap_content"/>
+
+
+            <ProgressBar
+                android:id="@+id/idLoadingPB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

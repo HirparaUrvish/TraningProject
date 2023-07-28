@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.DatePickerActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:background="#5BC0F8"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:text="Date View "
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Date Picker Example"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:id="@+id/date_picker"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/date_text"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/display_date"
+        android:layout_gravity="center_horizontal"
+        android:text="Display"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Dialog DatePicker"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/first_date1"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:hint="Click here for choose date"
+        android:focusedByDefault="false"
+        android:layout_height="50dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/first_date2"
+        android:hint="Click here for choose date"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:focusedByDefault="false"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp"/>
+
+
+
+
+</LinearLayout>

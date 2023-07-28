@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="list_item_appearance">
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-medium</item>
+    </style>
+    <style name="NavigationDrawerStyle">
+
+        <item name="android:labelTextSize">25dp</item>
+        <item name="android:textSize">18dp</item><!-- text size in menu-->
+        <item name="android:textColorSecondary">@color/red</item>
+        <item name="android:textColor">@color/red</item>
+        <!-- item size in menu-->
+        <item name="android:listPreferredItemHeightSmall" tools:targetApi="ice_cream_sandwich">40dp</item>
+        <item name="listPreferredItemHeightSmall">40dp</item>
+
+        <!-- item padding left in menu-->
+        <item name="android:listPreferredItemPaddingLeft" tools:targetApi="ice_cream_sandwich">8dp</item>
+        <item name="listPreferredItemPaddingLeft">8dp</item>
+
+        <!-- item padding right in menu-->
+        <item name="android:listPreferredItemPaddingRight" tools:targetApi="ice_cream_sandwich">8dp</item>
+        <item name="listPreferredItemPaddingRight">8dp</item>
+    </style>
+</resources>

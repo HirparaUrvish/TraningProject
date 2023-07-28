@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.urvish.Activity.EditTextActivity">
+
+        <TextView
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#5BC0F8"
+            android:gravity="center"
+            android:text="Edit Text"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Edittext Example"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:layout_below="@+id/textview"
+                android:hint="phone number"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/emailtext"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textview"
+                android:layout_marginStart="5dp"
+                android:layout_toRightOf="@+id/phonenumber"
+                android:hint="Email"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phonenumber"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="150dp"
+                android:text="Display" />
+
+
+            <EditText
+                android:id="@+id/nametext"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/display"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="70dp"
+                android:hint="Name"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/showname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nametext"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+             <TextView
+                android:id="@+id/showphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showname"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/showemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showphone"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</layout>

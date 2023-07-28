@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.urvish.Fragments.ToastDialogSnackBarFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:numColumns="2"
+            android:gravity="center"
+            android:text="Toast"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/ttt1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bb"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:numColumns="2"
+            android:text="Dialog"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/ttt2"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_below="@+id/ttt1"
+            android:textSize="18dp"
+            android:background="@drawable/bb"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:numColumns="2"
+            android:text="Snack Bar Control"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ttt2"
+            android:textColor="@color/black"
+            android:id="@+id/ttt3"
+            android:background="@drawable/bb"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="60dp"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:id="@+id/Recycler_image11"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"/>
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Recycler_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:onClick="onclick"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:padding="2dp"
+            android:textColor="#4d4d4d" />
+        <TextView
+            android:id="@+id/Recycler_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+</LinearLayout>

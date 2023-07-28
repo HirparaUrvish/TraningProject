@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urvish.Activity.MVPArchitectureActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="Android Architecture MVP"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email_mvp"
+        android:layout_centerHorizontal="true"
+        android:text="Enter a detail :-\nEmail:-urvish@gmail.com\nPassword:-123"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/password_mvp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/email_mvp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password_mvp"
+        android:layout_margin="10dp"
+        android:hint="Email" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit_mvp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_mvp"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+
+</RelativeLayout>

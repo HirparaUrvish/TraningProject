@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_margin="5dp"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/date_woc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:textColor="#86E5FF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/wocitem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/wocitem1111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/woc_cardview"
+                android:maxWidth="250dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/woc_images"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/woc_item1_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:maxWidth="200dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="Admin"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/woc_item1_delete"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/ic_baseline_delete_24"
+                        app:civ_border_width="2dp"
+                        app:civ_circle_background_color="@color/white" />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/woc_item1_edit"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/ic_baseline_mode_edit_outline_24"
+                        app:civ_border_width="2dp"
+                        app:civ_circle_background_color="@color/white" />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/woc_item1_arrow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        app:civ_border_width="2dp"
+                        app:civ_circle_background_color="@color/white" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/woc_item1_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+

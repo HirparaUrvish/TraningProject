@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="30dp"
+    android:layout_margin="10dp"
+    android:id="@+id/Card_database"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="30dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/liner_database"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:id="@+id/sql_image"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="130dp"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/sql_name"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="7dp"
+                android:id="@+id/sql_cancel"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_baseline_cancel_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/sql_email"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/sql_name"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/sql_email"
+                android:id="@+id/sql_age"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/sql_gender"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/sql_age"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/sql_number"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/sql_gender"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

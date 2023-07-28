@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="7dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#F37777"
+                android:src="@drawable/root1" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/gsonname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/gsongender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_toRightOf="@+id/gsonname"
+            android:text="Gender" />
+
+        <TextView
+            android:id="@+id/gsoneyecolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsonname"
+            android:layout_marginTop="10dp"
+            android:text="Eye color" />
+
+        <TextView
+            android:id="@+id/gsonemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsoneyecolor"
+            android:layout_marginTop="10dp"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/gsonphonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsonemail"
+            android:layout_marginTop="10dp"
+            android:text="Phone number" />
+
+        <TextView
+            android:id="@+id/gsoncompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsonphonenumber"
+            android:layout_marginTop="10dp"
+            android:text="Company" />
+
+        <TextView
+            android:id="@+id/gsonaddress"
+            android:layout_width="320dp"
+            android:paddingEnd="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsoncompany"
+            android:layout_marginTop="10dp"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/gsontag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gsonaddress"
+            android:layout_marginTop="10dp"
+            android:text="Tag" />
+
+        <TextView
+            android:id="@+id/gsonfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsontag"
+            android:layout_marginTop="10dp"
+            android:text="No of friend" />
+
+        <TextView
+            android:id="@+id/gsonfruit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsonfriend"
+            android:layout_marginTop="10dp"
+            android:text="Favorite fruit" />
+
+        <TextView
+            android:id="@+id/gsonbalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gsonfruit"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Balance" />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:padding="20dp"
+        android:layout_height="2dp"/>
+
+</LinearLayout>

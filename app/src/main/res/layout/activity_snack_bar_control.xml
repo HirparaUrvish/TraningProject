@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.urvish.Activity.SnackBarControlActivity">
+
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#5BC0F8"
+        android:gravity="center"
+        android:text="SnackBar Control"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Default SnackBar"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/default_snackbar"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Default SnackBar"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hhhhhhhh"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Click event fire in snackbar"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/click_snackbar"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Click event fire in snackbar"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Anchor_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Custom snackbar"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/custom_snackbar"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Custom snackbar"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
